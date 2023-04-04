@@ -12,10 +12,12 @@ namespace Helpers.cs.Models
         {
 
         }
+        
         public Employees(int hoursPerMonth)
         {
             HoursPerMonth = hoursPerMonth;
         }
+        
         private int Salary { get; set; } = 300;
         public int HoursPerMonth { get; set; }
         public double Bonus { get; set; }
