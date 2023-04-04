@@ -18,6 +18,7 @@ namespace Helpers.cs.Models
             HoursPerMonth = hoursPerMonth;
         }
         
+        
         private int Salary { get; set; } = 300;
         public int HoursPerMonth { get; set; }
         public double Bonus { get; set; }
