@@ -12,6 +12,7 @@ namespace Helpers.cs.Models
         {
 
         }
+        
         public Movies(string title, string description, int year, Genres genre, bool isAvailableForRenting, int price)
         {
             Title = title;
@@ -21,12 +22,14 @@ namespace Helpers.cs.Models
             IsAvailableForRenting = isAvailableForRenting;
             Price = price;
         }
+        
         public string Title { get; set; }
         public string Description { get; set; }
         public int Year { get; set; }
         public Genres Genre { get; set; }
         public bool IsAvailableForRenting { get; set; }
         private int Price { get; set; }
+        
 
         public static void SetPrice(Movies movie)
         {
