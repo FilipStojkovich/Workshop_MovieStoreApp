@@ -13,6 +13,7 @@ namespace Helpers.cs.Models
         {
 
         }
+        
         public Members(string firstName, string lastName, int age, string userName, string passWord, string phoneNumber, DateTime dateOfRegistration, Roles role)
         {
             FirstName = firstName;
@@ -24,6 +25,7 @@ namespace Helpers.cs.Models
             DateOfRegistration = dateOfRegistration;
             Role = role;
         }
+        
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }
@@ -32,6 +34,7 @@ namespace Helpers.cs.Models
         public string PhoneNumber { get; set; }
         public DateTime DateOfRegistration { get; set; }
         public Roles Role { get; set; }
+        
 
         public static void DisplayInfo(Users user)
         {
